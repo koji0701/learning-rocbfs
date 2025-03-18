@@ -12,7 +12,8 @@ The agent also responds to traffic lights. """
 from agents.navigation.agent import Agent, AgentState
 from agents.navigation.local_planner_customized import LocalPlanner
 
-
+  
+  
 class RoamingAgent(Agent):
     """
     RoamingAgent implements a basic agent that navigates scenes making random
